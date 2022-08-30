@@ -1,0 +1,146 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+.header{
+    font-size: 12px;
+	width: 100%;
+	height: 77px;
+	background: #fff;
+	border-bottom: 1px solid #9d9895;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+header{
+    width: 1251px;
+	height: 58px;
+	/*background: pink;*/
+	margin: 0 auto;
+	overflow: hidden;
+    margin-top: 15px;
+}
+header a img{
+    height: 45px;
+}
+header >a {
+    float: left;
+}
+header .city{
+    float: left;
+    margin-top: 15px;
+    margin-left: 30px;
+    height: 30px;
+}
+header .city img{
+    height: 17px;
+    margin-left: 5px;
+}
+header .city a{
+    margin-left: 10px;
+    padding: 9px;
+    background-color: #ccc;
+    color: white;
+}
+header .naver{
+    float: left;
+    margin-top: 15px;
+    margin-left: 50px;
+    height: 30px;
+}
+header .naver a{
+    margin-left: 30px;
+}
+
+header .link{
+    float: right;
+    margin-top: 15px;
+    height: 30px;
+}
+header .link img{
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+header .link >a{
+	padding: 11px 8px 12px 8px;
+	border: 1px solid #989898;
+	color: #03000e;
+    margin-left: 10px;
+}
+.banner img{
+    width: 100%;
+    height: 720px;
+}
+.content{
+    
+    width: 100%;
+}
+.content div{
+    width: 33.3%;
+    float: left;
+    height: 400px;
+    text-align: center;
+}
+.content div a:first-child{
+    display: block;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.content div .title{
+    border-bottom: 2px solid ;
+    padding-bottom: 5px;
+}
+.content div .title span:first-of-type{
+    font-weight: bolder;
+}
+.content .left{
+    background-color: #eee2c8;
+}
+.content .mid{
+    background-color: #ddc69d;
+}
+.content .right{
+    background-color: #eee2c8;
+}
+.footer{
+    float: left;
+    width: 100%;
+    height: 125px;
+    background-color: #3e2d23;
+    font-size: 12px;
+}
+.footer .footer1{
+    width: 1251px;
+    height: 45px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.footer .footer1 .msg a{
+    padding-right: 30px;
+    border-right: 1px solid #ccc;
+}
+.footer .footer1 .msg a:last-of-type{
+    border: 0;
+}
+.footer .footer1 .msg a,
+.footer .footer1 .tel a{
+    color: white;
+    margin-left: 20px;
+}
+.footer .footer2{
+    width: 1251px;
+    margin:  0 auto;
+    text-align: center;
+    color:white
+}
+.footer .footer2 span{
+    margin-left: 30px;
+}
